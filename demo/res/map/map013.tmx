@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJytVu0OhCAMQ+7jFU493/85jx824RoKHdpkGbqxdWFOUurjUeR5we5iK7JfsDPAS+m79oGX0grRfZz/VeTdic9g/1E9wLfIEcjD/m49S5Fs8IQd/spP5ce+EU/YOY9bD/OFRlw8Q9x4Kr+Kj+dD5Jk9H5Uvej78/lNkNeqp8ywTeZjvSHO/RL8ftx7uf3fugY97PrNzG3wQV9UD7fJX/VLzrWdxy97qVwb6S9Wzpf9Z3LLvnXjMf+SnwP7R+ebi6nybRXS+zWJUj3svmN3v/N/zKa2zi94reshifTdWsXbwA1MTD6U=
+  </data>
+ </layer>
+ <objectgroup name="baseplayer">
+  <object x="286" y="574" width="50" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="192" y="576" width="48" height="47"/>
+  <object name="player2" x="384" y="576" width="47" height="46"/>
+ </objectgroup>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="0" y="48" width="48" height="49"/>
+  <object name="p2" x="238" y="120" width="48" height="50"/>
+  <object name="p3" x="576" y="120" width="43" height="45"/>
+  <object name="p4" x="144" y="192" width="48" height="48"/>
+  <object name="p5" x="96" y="96" width="48" height="48"/>
+  <object name="p6" x="432" y="192" width="47" height="45"/>
+  <object name="p7" x="528" y="336" width="48" height="49"/>
+  <object name="p8" x="480" y="240" width="46" height="48"/>
+  <object name="p9" x="48" y="336" width="48" height="48"/>
+  <object name="p10" x="336" y="96" width="47" height="49"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="48" y="0" width="48" height="48"/>
+  <object name="enemy2" x="288" y="48" width="48" height="48"/>
+  <object name="enemy3" x="576" y="48" width="48" height="48"/>
+  <object name="enemy4" x="336" y="192" width="48" height="48"/>
+  <object name="enemy5" x="240" y="192" width="48" height="48"/>
+ </objectgroup>
+</map>

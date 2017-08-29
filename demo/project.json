@@ -1,0 +1,23 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/main/globals.js",
+        "src/common/Utils.js",
+        "src/main/MainScene.js",
+        "src/main/MainLayer.js",
+        "src/main/BaseObject.js",
+        "src/main/Tank.js"
+    ]
+}

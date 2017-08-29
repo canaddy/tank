@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlGsLgzAMRbu3ythX99Lt///K5UMPhMz6GE1h4IXDbWNMaG0NYdU/aCfsleeOo5twV547XhegKVTfu4/u9yrAW9gI2/Ct1HlZGqd+K1wHntvz8mucPvhBODo468AfwtPBqc96TkIVPUWl9mMsT+fb79MJffQUveozlqfz7Xq8NHXecsnWv0TOBs4k94M85jy375FnNdWH+0Eec/Zkbp9VfrL/Ks8+Q+PcahPjOfoAGTcR2A==
+  </data>
+ </layer>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="192" y="576" width="48" height="48"/>
+  <object name="player2" x="384" y="576" width="49" height="46"/>
+ </objectgroup>
+ <objectgroup name="baseplayer">
+  <object x="290" y="573" width="45" height="49"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="-2" y="0" width="50" height="46"/>
+  <object name="enemy2" x="144" y="0" width="48" height="48"/>
+  <object name="enemy3" x="240" y="0" width="43" height="48"/>
+  <object name="enemy4" x="336" y="0" width="48" height="48"/>
+  <object name="enemy5" x="432" y="0" width="48" height="48"/>
+  <object name="enemy6" x="576" y="0" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="0" y="96" width="48" height="48"/>
+  <object name="p2" x="144" y="102" width="45" height="42"/>
+  <object name="p3" x="288" y="96" width="46" height="47"/>
+  <object name="p4" x="432" y="96" width="50" height="50"/>
+  <object name="p5" x="576" y="96" width="48" height="48"/>
+  <object name="p6" x="288" y="198" width="46" height="42"/>
+  <object name="p7" x="216" y="240" width="43" height="45"/>
+  <object name="p8" x="362" y="239" width="45" height="46"/>
+  <object name="p9" x="74" y="241" width="46" height="44"/>
+  <object name="p10" x="507" y="238" width="45" height="48"/>
+ </objectgroup>
+</map>

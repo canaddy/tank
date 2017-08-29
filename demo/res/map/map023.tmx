@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzdlUsKgDAMRBXd6l63ev8zqtBsho6Z2FbQBwOaJk1If12XZzg1krEa/sZyam3gz+oxuzeOjMTO6jG7N46sxP4XsP/evpmTvPWyfuK/tw6YR11P9Hu6/xlsvuh58Sg9TypqfK6eHhSNz7ElYZ7c98WeFKVVHqWfd30rWY8Ib+0vdb7W50e938w+JTHYfOr9ZnYvT/S+/DrR938AqXHR938BqXFqPbX8o/Wo/ge0tQnn
+  </data>
+ </layer>
+ <objectgroup name="baseplayer">
+  <object x="288" y="288" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="216" y="288" width="48" height="47"/>
+  <object name="player2" x="360" y="288" width="47" height="46"/>
+ </objectgroup>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="384" y="576" width="48" height="49"/>
+  <object name="p2" x="0" y="90" width="48" height="50"/>
+  <object name="p3" x="192" y="0" width="43" height="45"/>
+  <object name="p4" x="96" y="0" width="51" height="45"/>
+  <object name="p5" x="576" y="192" width="47" height="46"/>
+  <object name="p6" x="576" y="96" width="47" height="45"/>
+  <object name="p7" x="0" y="390" width="48" height="42"/>
+  <object name="p8" x="96" y="576" width="47" height="49"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="0" y="576" width="48" height="48"/>
+  <object name="enemy2" x="576" y="576" width="49" height="46"/>
+  <object name="enemy3" x="0" y="0" width="48" height="48"/>
+  <object name="enemy4" x="576" y="0" width="48" height="48"/>
+  <object name="enemy5" x="0" y="240" width="48" height="48"/>
+  <object name="enemy6" x="336" y="0" width="48" height="48"/>
+  <object name="enemy7" x="576" y="336" width="48" height="48"/>
+  <object name="enemy8" x="240" y="576" width="48" height="48"/>
+ </objectgroup>
+</map>

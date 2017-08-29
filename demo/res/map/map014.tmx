@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlF0OAiEMhNcfuIJR9v7nlBeSyZcOW0V9cpJJF1tLpwW2bY7SWRf8WbTOfcFPVLDAOpQgVknsYIN1aEGs0umgniwiLUruTz1ZRFqUrN/NpwSM4ly+sZ/+rvWpJd0co/xj3bBmbaqhBmvXJ/rdPtSi85jNZPjYd82r2t0cnN0kv+ZmXezjq7Yirzu30X2enbeK//F+Osz6HZ03xyxm94l63nk/Blgv+3zkz+LovVp9D129R1zRo3MYuHReE3FZuPN/73wk4v74PU6dZ7Hf3Cf6/jRu5juDJ5GoFQ0=
+  </data>
+ </layer>
+ <objectgroup name="baseplayer">
+  <object x="286" y="574" width="50" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="168" y="576" width="48" height="47"/>
+  <object name="player2" x="408" y="576" width="47" height="46"/>
+ </objectgroup>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="241" y="260" width="48" height="49"/>
+  <object name="p2" x="240" y="0" width="48" height="50"/>
+  <object name="p3" x="0" y="288" width="43" height="45"/>
+  <object name="p4" x="96" y="336" width="48" height="48"/>
+  <object name="p5" x="288" y="96" width="48" height="48"/>
+  <object name="p6" x="336" y="0" width="47" height="45"/>
+  <object name="p7" x="480" y="336" width="48" height="49"/>
+  <object name="p8" x="576" y="288" width="46" height="48"/>
+  <object name="p9" x="0" y="0" width="51" height="47"/>
+  <object name="p10" x="576" y="0" width="47" height="49"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="144" y="0" width="48" height="48"/>
+  <object name="enemy2" x="192" y="96" width="48" height="48"/>
+  <object name="enemy3" x="432" y="0" width="48" height="49"/>
+  <object name="enemy4" x="384" y="96" width="48" height="48"/>
+  <object name="enemy5" x="288" y="384" width="48" height="48"/>
+ </objectgroup>
+</map>

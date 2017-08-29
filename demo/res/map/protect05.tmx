@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztVcsKwzAMa7al7WnX7tHu/z+zHsQghJM0mXcYTCBchHH8EHQY/vgFBOEJoreuWIQ3iN66IgrHxGjoGmu6aqwrnsI1MRq6xpo+Jo313r5b9d6+W/WcP87Ci9HPUZ3r5vxxFz6Mekd1rhuAlt97Yc2jtPzeC2ue93u636nAGfJLeRPU4/vofrcCX5BfytugXu+evO+Yw6d3xH0G0NmP10T0E+fjvRm4z4X6Rz/qO+gnzsd75+bxQm0eL3jX+wZq/2TPd6xvb7CvWrAD5j4Nuw==
+  </data>
+ </layer>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="192" y="576" width="48" height="48"/>
+  <object name="player2" x="384" y="576" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="baseplayer">
+  <object x="290" y="573" width="45" height="49"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="0" y="0" width="48" height="48"/>
+  <object name="enemy2" x="144" y="0" width="48" height="48"/>
+  <object name="enemy3" x="240" y="0" width="48" height="48"/>
+  <object name="enemy4" x="336" y="0" width="48" height="48"/>
+  <object name="enemy5" x="432" y="0" width="48" height="48"/>
+  <object name="enemy6" x="576" y="0" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="288" y="288" width="48" height="48"/>
+  <object name="p2" x="168" y="288" width="42" height="48"/>
+  <object name="p3" x="408" y="288" width="46" height="47"/>
+  <object name="p4" x="576" y="192" width="48" height="48"/>
+  <object name="p5" x="0" y="192" width="48" height="48"/>
+  <object name="p6" x="288" y="168" width="46" height="42"/>
+  <object name="p7" x="216" y="240" width="43" height="45"/>
+  <object name="p8" x="362" y="239" width="45" height="46"/>
+  <object name="p9" x="96" y="240" width="46" height="44"/>
+  <object name="p10" x="480" y="240" width="45" height="48"/>
+ </objectgroup>
+</map>

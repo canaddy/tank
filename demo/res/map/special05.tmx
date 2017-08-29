@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="all_material" tilewidth="24" tileheight="24">
+  <image source="../char/all_material.png" width="528" height="48"/>
+ </tileset>
+ <layer name="layer" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztVNEKgCAM1OrFfsDqxf7/K5ugMGSGwk0hGhx6Y3DudBrzvViVwXU0e+B7S1hYDsVLHU84WA7FZ/k2Wgd9TzUd9D2VOo6wN6yxduus5zqBcDesJ+HqqJfmx6YzBBCvzY9PZ3AgLs1PUIDkm1NA7R1wXxH8rZ/sK4JL/Yz2Tfsd5DnnOQSf/V9r6vzRHw+E/BL7
+  </data>
+ </layer>
+ <objectgroup name="objectproperty">
+  <object name="p1" x="144" y="102" width="43" height="38"/>
+  <object name="p2" x="48" y="288" width="48" height="44"/>
+  <object name="p3" x="191" y="194" width="50" height="46"/>
+  <object name="p4" x="289" y="385" width="47" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectplayer">
+  <object name="player1" x="95" y="575" width="49" height="48"/>
+  <object name="player2" x="483" y="574" width="41" height="48"/>
+ </objectgroup>
+ <objectgroup name="objectenemy">
+  <object name="enemy1" x="96" y="193" width="46" height="40"/>
+  <object name="enemy2" x="336" y="288" width="51" height="47"/>
+  <object name="enemy3" x="432" y="288" width="50" height="45"/>
+  <object name="enemy4" x="432" y="96" width="46" height="42"/>
+  <object name="enemy5" x="287" y="191" width="48" height="42"/>
+  <object name="enemy6" x="144" y="288" width="46" height="45"/>
+  <object name="enemy7" x="96" y="383" width="48" height="47"/>
+  <object name="enemy8" x="240" y="288" width="45" height="44"/>
+ </objectgroup>
+ <objectgroup name="turret">
+  <object name="turret1" x="240" y="96" width="46" height="44"/>
+  <object name="turret2" x="482" y="193" width="45" height="43"/>
+ </objectgroup>
+</map>
